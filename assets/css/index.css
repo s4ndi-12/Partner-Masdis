@@ -1,0 +1,72 @@
+.background_login {
+    background-image: url(../image/backlog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.image_logo {
+    width: 250px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+}
+
+.card_login {
+    background: #fff;
+    width: 35%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -2px 2px 19px -14px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 2px 19px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 19px -14px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+}
+
+.grid-2-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    border-radius: 20px;
+}
+
+.button_login {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: #0790e6;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+
+@media only screen and (max-width: 1124px) {
+    .card_login {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .card_login {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card_login {
+        width: 80%;
+    }
+}
